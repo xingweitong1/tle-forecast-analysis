@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 分析结果（运行 main.py 后生成，不提交）
+output/*
+!output/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# LaTeX 编译产物
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.nav
+docs/*.toc
+docs/*.pdf
+docs/*.synctex.gz
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 凭证（切勿提交）
+.env
+*.secret

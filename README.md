@@ -6,7 +6,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/你的用户名/tle-forecast-analysis.git
+git clone https://github.com/xingweitong1/tle-forecast-analysis.git
 cd tle-forecast-analysis
 pip install -r requirements.txt
 python main.py

@@ -29,7 +29,7 @@ python main.py
 ├── config.py                   # 卫星 NORAD ID、参数
 ├── requirements.txt
 ├── data/
-│   ├── raw/spacetrack/         # 已下载 TLE（提交到仓库）
+│   ├── raw/spacetrack/         # 已下载 TLE
 │   └── processed/              # 运行后生成的数据
 ├── output/                     # 图表与报告
 └── src/
@@ -55,7 +55,7 @@ $env:SPACETRACK_PASSWORD = "你的密码"
 python main.py --download
 ```
 
-## 输出文件（运行后）
+## 输出文件
 
 | 路径 | 说明 |
 |------|------|
@@ -65,6 +65,3 @@ python main.py --download
 | `output/*.png` | 图表 |
 
 
-## 许可证
-
-仅供课程研究使用。TLE 数据来自 Space-Track.org，使用时请遵守其[使用条款](https://www.space-track.org)。
